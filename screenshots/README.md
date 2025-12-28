@@ -1,16 +1,16 @@
 ## Project Screenshots
 
 ### Docker Containers Running
-![Docker Containers](screenshots/Docker Containers Running.png)
+![Docker Containers](Docker_Containers_Running.png)
 
 ### Flask API Logs
-![API Logs](screenshots/API Logs.png)
+![API Logs](API_Logs.png)
 
 ### Postman Prediction Request
-![Postman Request](screenshots/Postman Request.png)
+![Postman Request](Postman_Request.png)
 
 ### Postman Prediction Response
-![Postman Response](screenshots/Postman Response.png)
+![Postman Response](Postman_Response.png)
 
 ### PostgreSQL Prediction Audit Log
 ![PostgreSQL Audit](postgresql_prediction_audit_log.png)
