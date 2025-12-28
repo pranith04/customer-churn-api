@@ -46,7 +46,6 @@ POST /predict
 
 Request Body
 ```json
-Copy code
 {
   "age": 35,
   "tenure": 12,
@@ -57,7 +56,6 @@ Copy code
 ```
 Response
 ```json
-Copy code
 {
   "churn_probability": 1.0,
   "churn_prediction": true
