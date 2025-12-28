@@ -13,5 +13,5 @@
 ![Postman Response](screenshots/Postman Response.png)
 
 ### PostgreSQL Prediction Audit Log
-![PostgreSQL Audit](screenshots/postgresql_prediction_audit_log.png)
+![PostgreSQL Audit](postgresql_prediction_audit_log.png)
 
