@@ -37,15 +37,16 @@ Response:
 {
   "message": "Customer Churn Prediction API running"
 }
-...
 
-## API Endpoints
+```
 
-### Predict Customer Churn
-**POST /predict**
 
-#### Request Body
+Predict Customer Churn
+POST /predict
+
+Request Body
 ```json
+Copy code
 {
   "age": 35,
   "tenure": 12,
@@ -53,36 +54,41 @@ Response:
   "total_charges": 905.5,
   "contract_type": "month-to-month"
 }
-
+```
 Response
+```json
+Copy code
 {
   "churn_probability": 1.0,
   "churn_prediction": true
 }
-Database Auditing
+```
+churn_probability: Probability of customer churn
 
+churn_prediction: Final churn classification
+
+Database Auditing
 All prediction requests and results are logged in PostgreSQL, including:
 
-Input request data (JSON)
+-Input request data (JSON)
 
-Churn probability
+-Churn probability
 
-Prediction result
+-Prediction result
 
-This ensures traceability and auditing of model predictions.
+-This ensures traceability and auditing of model predictions.
 
 Running the Application
-Prerequisites
-
-Docker
-
-Docker Compose
+-Prerequisites
+-Docker
+-Docker Compose
 
 Run Commands
+```bash
 docker-compose build --no-cache
 docker-compose up
-
+```
 
 The API will be available at:
-
+```
 http://localhost:5000
